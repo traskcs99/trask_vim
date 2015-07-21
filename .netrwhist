@@ -1,9 +1,9 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/traskcs/.vim'
-let g:netrw_dirhist_2='/home/traskcs/.vim/bundle'
-let g:netrw_dirhist_3='/home/traskcs'
-let g:netrw_dirhist_4='/home/traskcs/.vim'
-let g:netrw_dirhist_5='/home/traskcs/.vim/bundle'
-let g:netrw_dirhist_6='/home/traskcs/.vim'
-let g:netrw_dirhist_7='/home/traskcs'
+let g:netrw_dirhist_1='/home/traskcs/dev/node/stock-api/stocks'
+let g:netrw_dirhist_2='/home/traskcs/dev/node/stock-api/stocks/server'
+let g:netrw_dirhist_3='/home/traskcs/dev/node/stock-api/stocks/server/api'
+let g:netrw_dirhist_4='/home/traskcs/dev/node/stock-api/stocks/server/api/transaction'
+let g:netrw_dirhist_5='server/api/user'
+let g:netrw_dirhist_6='/home/traskcs/dev/node/stock-api/stocks/server/api/user'
+let g:netrw_dirhist_7='/home/traskcs/dev/node/rest_api/stocks/app/controllers'
