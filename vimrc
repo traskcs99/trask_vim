@@ -78,3 +78,6 @@ let g:ctrlp_open_multi = '10t'
 let g:ctrlspace_save_workspace_on_exit = 1
 let g:ctrlspace_load_last_workspace_on_start =1
 nmap <F8> :TagbarToggle<CR>
+
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
