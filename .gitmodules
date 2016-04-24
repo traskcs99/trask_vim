@@ -52,3 +52,15 @@
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
 	url = git@github.com:tpope/vim-abolish.git
+[submodule "bundle/vim-numbertoggle"]
+	path = bundle/vim-numbertoggle
+	url = git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
+[submodule "bundle/improvedft"]
+	path = bundle/improvedft
+	url = git@github.com:chrisbra/improvedft.git
+[submodule "bundle/vim-autoformat"]
+	path = bundle/vim-autoformat
+	url = git@github.com:Chiel92/vim-autoformat.git
+[submodule "bundle/vim-jsbeautify"]
+	path = bundle/vim-jsbeautify
+	url = git@github.com:maksimr/vim-jsbeautify.git

@@ -35,6 +35,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jscs', 'jsxhint']
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
@@ -81,3 +82,18 @@ nmap <F8> :TagbarToggle<CR>
 
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
+
+" jsBeautify <leader>ff
+nnoremap <leader>ff :%!js-beautify -j -q -B -f -<CR>
+
+set foldmethod=syntax
+set foldlevelstart=1
+
+let javaScript_fold=1         " JavaScript
+let perl_fold=1               " Perl
+let php_folding=1             " PHP
+let r_syntax_folding=1        " R
+let ruby_fold=1               " Ruby
+let sh_fold_enabled=1         " sh
+let vimsyn_folding='af'       " Vim script
+let xml_syntax_folding=1      " XML
