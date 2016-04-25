@@ -1,4 +1,5 @@
-
+set background=dark
+colorscheme hybrid
 set number	     
 set linebreak	     
 set showbreak=+++
